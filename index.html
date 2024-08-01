@@ -1,0 +1,354 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Story by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h2>Hi
+								<span class="wave">
+									<img src="images/Hand.gif" width="38px">
+								</span>
+								&nbsp;,I'm Yaksh Toyesh Ujoodha
+							</h2>
+							<p class="major">
+								I am into
+								<span class="animated-text" data-words="Data Science, Analytics, Machine Learning, Computer Science, A.I. Engineering, Statistics, Data Engineering, Cloud Computing" style="display: inline-block; font-family: 'Apercu', sans-serif;"></span>
+							</p>
+							<script>
+								document.addEventListener('DOMContentLoaded', () => {
+								const animatedText = document.querySelector('.animated-text');
+								const words = animatedText.getAttribute('data-words').split(', ');
+								let wordIndex = 0;
+								let charIndex = 0;
+								const speed = 100; /* Speed/duration of the effect in milliseconds */
+								const pauseBetweenWords = 1000; /* Pause duration between words in milliseconds */
+
+								function typeWriter() {
+									if (charIndex < words[wordIndex].length) {
+										animatedText.innerHTML += words[wordIndex].charAt(charIndex);
+										charIndex++;
+										setTimeout(typeWriter, speed);
+									} else {
+										setTimeout(() => {
+											charIndex = 0;
+											wordIndex = (wordIndex + 1) % words.length;
+											animatedText.innerHTML = "";
+											setTimeout(typeWriter, speed);
+										}, pauseBetweenWords);
+									}
+								}
+
+								typeWriter();
+							});
+							</script>
+							<ul class="actions stacked">
+								<li><a href="#first" class="button big wide smooth-scroll-middle">About Me</a></li>
+								<li><a href="#my-journey" class="button big wide smooth-scroll-middle">My Journey</a></li>
+								<li><a href="#my-projects" class="button big wide smooth-scroll-middle">My Projects</a></li>
+								<li><a href="#contact-me" class="button big wide smooth-scroll-middle">Contact Me</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/1.png" alt="" />
+						</div>
+					</section>
+				<!-- About me -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2 style="text-align: center;">About</h2>
+						</div>
+					</section>
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>
+								<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="bi bi-rocket-takeoff" viewBox="0 0 16 16" style="color: red;">
+									<path d="M9.752 6.193c.599.6 1.73.437 2.528-.362s.96-1.932.362-2.531c-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532"/>
+									<path d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9 9 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a10 10 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093q.1.026.16.045c.184.06.279.13.351.295l.029.073a3.5 3.5 0 0 1 .157.721c.055.485.051 1.178-.159 2.065m-4.828 7.475.04-.04-.107 1.081a1.54 1.54 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a9 9 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006M5.205 5c-.625.626-.94 1.351-1.004 2.09a9 9 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a3 3 0 0 0-.045-.283 3 3 0 0 0-.3-.041Z"/>
+									<path d="M7.009 12.139a7.6 7.6 0 0 1-1.804-1.352A7.6 7.6 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z"/>
+								</svg>
+								Aspiring Data Scientist
+							</h2>
+							<p> I aim to work in a dynamic environment where I can continue to grow as a data scientist and contribute to innovative ML projects.</p>
+							<ul class="actions stacked">
+								<li><a href="https://www.linkedin.com/in/yaksh-toyesh-ujoodha/" class="button">LinkedIn</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/Copy 1.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>
+								<svg xmlns="http://www.w3.org/2000/svg" width="45" height="33" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16" style="color: blue;">
+									<path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+								</svg>
+								Team First 
+							</h2>
+							<p>Beyond my professional pursuits, I’m an active member of CodePath and have held leadership roles such as Data Science Tech Lead for the Google Developer Student Club (GDSC).</p>
+							<ul class="actions stacked">
+								<li><a href="https://github.com/YAkshTOyesh" class="button">GitHub</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/TIP.png" alt="" />
+						</div>
+					</section>
+
+				<!-- Four -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>
+								<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="bi bi-gem" viewBox="0 0 16 16" style="color:gold;">
+									<path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6zm11.386 3.785-1.806-2.41-.776 2.413zm-3.633.004.961-2.989H4.186l.963 2.995zM5.47 5.495 8 13.366l2.532-7.876zm-1.371-.999-.78-2.422-1.818 2.425zM1.499 5.5l5.113 6.817-2.192-6.82zm7.889 6.817 5.123-6.83-2.928.002z"/>
+								</svg>
+								Value Driven
+							</h2>
+							<p>I thrive in collaborative environments, having worked on agile teams and contributed to various data analytics projects.</p>
+							<ul>
+								<li><b>An innovative problem-solver:</b> 5X internships in Data Science Pipeline projects.</li>
+								<li> <b>A mission-driven engineer:</b> Double majoring in Data Science and Computer Science with an excellent academic record of 4.0 G.P.A at Beloit College.</li>
+								<li> <b>Strong Technical Skills:</b> Python, SQL, R, Automation 360, Snowflake, Microsoft Azure, Prefect, Tableau, PowerBI, Data Mining, ML, Advanced Statistics</li>
+							</ul>
+							<ul class="actions stacked">
+								<li><a href="https://drive.google.com/file/d/1_pXqksvfgiAUTq1wmNsLW57M5Lk_KoT-/view?usp=drive_link" class="button">Resume PDF</a></li>
+							</ul>, 
+						</div>
+						<div class="image">
+							<img src="images/Resume_screenshot.png" alt="" />
+						</div>
+					</section>
+				<!-- Learing -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>
+								<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16" style="color: green;">
+									<path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z"/>
+									<path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"/>
+								</svg>
+								Learning, Sharing, Growing 
+							</h2>
+							<p>I am currently focusing on machine learning system design, consistently aiming to create scalable, efficient, and effective solutions.</p>
+							<p>In my free time, I enjoy learning new languages, with a current streak of 278 days on Duolingo for Japanese. I also keep up with the latest tech trends by reading tech newsletters.</p>
+							<ul class="actions stacked">
+								<li><a href="https://github.com/gregorojstersek/resources-to-become-a-great-engineering-leader" class="button">Resource by Gregor Ojstersek</a></li>
+							</ul>
+							<p><b>Fun Fact:</b> I am from Mauritius <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Mauritius.svg" alt="Mauritius Flag" style="width:30px;height:auto;"><br><i>The picture on the right is the famous Crystal Rock of Mauritius. This rock is a symbol of my beautiful home island, which is known for its stunning beaches, vibrant culture, and unique geological formations.</i></p>
+						</div>
+						<div class="image">
+							<img src="images/pexels-memoirsofevu-210144064-11760946.jpg" alt="" />
+						</div>
+					</section>
+				<!-- Five -->
+					<section class="wrapper style1 align-center">
+						<div class="inner" id = "my-journey">
+							<h2>My Journey</h2>
+							<ul class="actions stacked">
+								<li><a href="https://drive.google.com/file/d/1_pXqksvfgiAUTq1wmNsLW57M5Lk_KoT-/view?usp=drive_link" class="button">Resume PDF</a></li>
+							</ul>
+						</div>
+
+						<!-- Gallery -->
+							<div class="gallery style2 medium lightbox onscroll-fade-in">
+								<article>
+									<a href="https://www.beloit.edu/" class="image">
+										<img src="images/gallery/thumbs/B Beloit logo.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Education</h3>
+										<p>Bachelor of Science in Data Science and Computer Science</p>
+										<p>G.P.A 4.0/4.0</p>
+										<p>Aug 2021 - May 2025</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="https://www.abcsupply.com/about-us/" class="image">
+										<img src="images/gallery/thumbs/ABC Supply Logo.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Data Science Intern</h3>
+										<p>Aug 2024 - Dec 2024</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="https://headstarter.co/" class="image">
+										<img src="images/gallery/thumbs/SWE Fellow Headstarter.png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Software Engineering Fellow</h3>
+										<p>@Headstarter AI | Remote | Jul 2024 - Sep 2024</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="https://www.spartannash.com/" class="image">
+										<img src="images/gallery/thumbs/SN logo V RGB 2023.png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Business Intelligence (BI) Intern</h3>
+										<p>May 2024 - Aug 2024</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="https://skunkworks.engr.wisc.edu/" class="image">
+										<img src="images/gallery/thumbs/logo_emblem_final-300x300.png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Machine Learning Research Assistant</h3>
+										<p>Sep 2023 - May 2024</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="https://www.beloit.edu/offices/career-works/" class="image">
+										<img src="images/gallery/thumbs/Career Works logo-02 (1).png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Survey & Data Analytics Assistant</h3>
+										<p>Aug 2023 - May 2024</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="https://www.telecom.mu/" class="image">
+										<img src="images/gallery/thumbs/Mauritius_Telecom.png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Data Engineering Intern</h3>
+										<p>May 2023 - Aug 2023</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+							</div>
+					</section>
+
+				<!-- My Projects -->
+					<section class="wrapper style1 align-center" id="my-projects">
+						<div class="inner">
+							<h2>My Projects</h2>
+							<ul class="actions stacked">
+								<li><a href="https://github.com/YAkshTOyesh" class="button">GitHub</a></li>
+							</ul>
+						</div>
+							<div class="gallery style2 medium lightbox onscroll-fade-in">
+								<article>
+									<a href="https://github.com/YAkshTOyesh/LeetcodePractice_Grind75" class="image">
+										<img src="images/gallery/thumbs/LeetcodeLogo.png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Leetcode Practice</h3>
+										<p>A repository of my solutions to Blind 75 questions using UMPIRE</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="https://github.com/YAkshTOyesh/Data_Mining_Project_Default_of_Credit_Cards/blob/main/Visualization/Presentation%20Visualization.pdf" class="image">
+										<img src="images/gallery/thumbs/DSDA 345 - Final Project.png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Predicting Credit Card Payment Behavior</h3>
+										<p>Achieved 81% accuracy using scikit-learn and ROC analysis in Python.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="https://public.tableau.com/app/profile/yaksh.toyesh.ujoodha/viz/YakshDashboardEconometricAnalysis/FinalDashboardYaksh" class="image">
+										<img src="images/gallery/thumbs/view.png" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Econometrics Tableau Dashboard</h3>
+										<p>Use full screen feature for best experience.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+							</div>
+					</section>
+
+				<!-- Seven -->
+					<section class="wrapper style1 align-center" id = "contact-me">
+						<div class="inner medium">
+							<h2>Contact Me</h2>
+							<p>I’d love to connect and share insights with you. Whether it's about data's stories, collaborative projects, or insights from my experiences, I'm here to share and learn together.</p>
+							<p>Feel free to connect through email at <b><u>yakshujoodha@gmail.com</u></b>. You can also engage in conversations with me on LinkedIn.</p>
+							<p>Looking forward to connecting with you!</p>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li>
+									<a href="https://github.com/YAkshTOyesh">
+										<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+											<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/yaksh-toyesh-ujoodha/">
+										<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+											<path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+										</svg>
+									</a>
+								</li>
+							</ul>
+							<p>&copy; 2024 Yaksh Toyesh Ujoodha | v1.0.0.</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
